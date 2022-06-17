@@ -12,6 +12,7 @@ import {FormsModule} from "@angular/forms";
 import {RouterModule, Routes} from "@angular/router";
 import {Assignment1Component} from "./assigment1/assignment1.component";
 import {Assignment2Component} from "./assignment2/assignment2.component";
+import {ThiAngularComponent} from "./thiAngular/thiAngular.component";
 
 const appRouters: Routes = [
   {
@@ -35,7 +36,8 @@ const appRouters: Routes = [
     ProductsComponent,
     WeatherComponent,
     Assignment1Component,
-    Assignment2Component
+    Assignment2Component,
+    ThiAngularComponent
   ],
   imports: [
     BrowserModule,
